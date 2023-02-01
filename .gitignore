@@ -72,3 +72,19 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Ignore Subfolders if projects are in subfolders
+**/.vs/
+**/SourceArt/**/*.png
+**/SourceArt/**/*.tga
+**/Binaries/*
+**/Plugins/*/Binaries/*
+**/Build/*
+!**/Build/*/
+**/Build/*/**
+!**/Build/*/PakBlacklist*.txt
+!**/Build/**/*.ico
+**/Saved/*
+**/Intermediate/*
+**/Plugins/*/Intermediate/*
+**/DerivedDataCache/*
